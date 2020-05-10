@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="clear">
+                <i class="fa fa-trash"></i>
+            </div>
+            <div id="date"></div>
+        </div>
+        <div class="content">
+            <ul id="list">
+               
+            </ul>
+        </div>
+        <div class="add-to-do">
+            <i class="fa fa-plus-square"></i>
+            <input type="text" id="input" placeholder="Add new Task Here">
+            <select id="names">
+                <option value="ahmed">Ahmed</option>
+                <option value="mohamed">Mohamed</option>
+                <option value="amira">Amira</option>
+                <option value="magdy">Magdy</option>
+                <option value="amr">Amr</option>
+                <option value="samy">Samy</option>
+            </select>
+        </div>
+        <div class="search-to-do">
+            <i class="fa fa-search"></i>
+            <input type="text" id="search" placeholder="Search Tasks Here">
+            <select id="filters">
+                <option value="all">All</option>
+                <option value="today">today</option>
+            </select>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
